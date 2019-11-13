@@ -1,3 +1,29 @@
 @import 'mixin.scss';
 @import 'colors.scss';
 
+*{
+  box-sizing: border-box;
+}
+.container {
+  background: $info-color;
+  width: calc(100% - 10rem);
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  div{
+    background: $bgcolor;
+    border: 1px solid #aa66cc;
+    height: 50px;
+  }
+}
+
+$columns: 12;
+
+@for $x from 1 through $columns {
+  .col-#{$x} {
+    flex: 0 0 100% / $columns * $x;
+  }
+}
