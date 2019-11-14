@@ -4,8 +4,15 @@
 
 .container {
   background: #33b5e5;
-  width: calc(100% - 10rem);
+  width: calc(100% - 2rem);
   margin: 0 auto; }
+
+.container:not(:first-child) {
+  margin-top: 50px; }
+
+h1 {
+  color: #fff;
+  text-align: center; }
 
 .row {
   display: -webkit-box;

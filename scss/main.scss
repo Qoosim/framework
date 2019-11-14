@@ -6,14 +6,24 @@
 }
 .container {
   background: $info-color;
-  width: calc(100% - 10rem);
+  width: calc(100% - 2rem);
   margin: 0 auto;
+}
+
+.container:not(:first-child) {
+  margin-top: 50px;
+}
+
+h1 {
+  color: $light-color;
+  text-align: center;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  div{
+
+  div {
     background: $bgcolor;
     border: 1px solid #aa66cc;
     height: 50px;
