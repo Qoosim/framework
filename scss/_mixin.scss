@@ -1,37 +1,25 @@
-$max: 50;
-$offset: 5;
-$unit: "px";
-
-@mixin padding ($className, $styleName) {
-    $i: 0;
-    @while $i <= $max {
-      #{$className + $i} { 
-        #{$styleName}: #{$i + $unit};
-      }
-      $i: $i + $offset;
-    }
+@mixin grid-unit($span) {
+  float: left;
+  margin-right: $gutter-width;
+  width: ($column-width * $span) + ($gutter-width * ($span - 1)) !important;
 }
 
-@include padding('.pt-', 'padding-top');
-@include padding('.pr-', 'padding-right');
-@include padding('.pb-', 'padding-bottom');
-@include padding('.pl-', 'padding-left');
-@include padding('.px-', 'padding');
-
-$mag: 50;
-$offset: 5;
-$unit: "px";
-
-@mixin margin ($className, $styleName) {
-    $i: 0;
-    @while $i <= $mag {
-      #{$className + $i} { 
-        #{$styleName}: #{$i + $unit};
-      }
-      $i: $i + $offset;
-    }
+@mixin display-flex {
+  display: flex !important;
 }
-@include margin('.mt-', 'margin-top');
-@include margin('.mr-', 'margin-right');
-@include margin('.mb-', 'margin-bottom');
-@include margin('.ml-', 'margin-left');
+
+@mixin display-none {
+  display: none !important;
+}
+
+@mixin display-block {
+  display: block !important;
+}
+
+@mixin display-inline {
+  display: inline;
+}
+
+@mixin display-inline-block {
+  display: inline-block;
+}
