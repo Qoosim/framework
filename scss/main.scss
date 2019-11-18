@@ -1,9 +1,11 @@
+@import 'reset';
 @import 'mixin';
-@import 'colors';
+@import 'variables';
 
 *{
   box-sizing: border-box;
 }
+
 .container {
   background: $info-color;
   width: calc(100% - 2rem);
