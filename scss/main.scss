@@ -5,14 +5,12 @@
 @import 'display';
 
 .container {
-  background: $info;
-  float: none;
   width: calc(100% - 2rem);
   margin: 0 auto;
 }
 
 h1 {
-  color: $light;
+  color: $warning;
   text-align: center;
 }
 

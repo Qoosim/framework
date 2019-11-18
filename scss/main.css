@@ -3825,14 +3825,12 @@ h6 {
 }
 
 .container {
-  background: #33b5e5;
-  float: none;
   width: calc(100% - 2rem);
   margin: 0 auto;
 }
 
 h1 {
-  color: #fff;
+  color: #ffbb33;
   text-align: center;
 }
 
