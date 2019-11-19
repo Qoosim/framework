@@ -3829,23 +3829,12 @@ h6 {
   margin: 0 auto;
 }
 
-h1 {
-  color: #ffbb33;
-  text-align: center;
-}
-
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.row div {
-  background: #d1d1d1;
-  border: 1px solid #aa66cc;
-  height: 50px;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
@@ -4428,15 +4417,17 @@ h1 {
   display: inline-block;
 }
 
-h2 {
-  text-align: center;
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-/* p {
-  text-align: center;
-  border: 3px solid #aa66cc;
-  width: 40px;
-  margin: 0 auto;
-} */
-
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=main.css.map */

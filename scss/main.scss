@@ -9,20 +9,9 @@
   margin: 0 auto;
 }
 
-h1 {
-  color: $warning;
-  text-align: center;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
-
-  // div {
-  //   background: $bgcolor;
-  //   border: 1px solid #aa66cc;
-  //   height: 50px;
-  // }
 }
 
 // Grid columns

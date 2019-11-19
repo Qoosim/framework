@@ -1,26 +1,13 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   max-width: 90%;
   width: 100%;
   margin: 10px auto;
   height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo-input {
   max-width: 400px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-logo {
@@ -72,14 +59,15 @@
   margin-top: -6px;
 }
 
+.nav-below {
+  width: 100%;
+  border-top: 1px solid #aaa;
+}
+
 .b-nav {
   max-width: 90%;
-  width: 100%;
   margin: 5px auto;
   height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .b-item {
@@ -92,11 +80,35 @@
 .bg-img {
   height: 450px;
   background: cadetblue;
-  /* background-image: url("/images/upwork.jpeg"); */
-  background-image: url(/ab/assets/Adquiro/6d5fd6a/wp/images/writing.36f598c373c4.jpg);
+  background-image: url("https://www.upwork.com/ab/assets/Adquiro/6d5fd6a/wp/images/writing@2x.a92a7966a1a3.jpg");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.get-started {
+  width: 90%;
+  position: absolute;
+  bottom: 13rem;
+  left: 4.5rem;
+}
+
+.bg-words h1{
+  font-size: 2.5rem;
+  line-height: 50px;
+  color: #222;
+}
+
+.bg-words a {
+  text-decoration: none;
+  background: #37a000;
+  color: #fff;
+  font-weight: 400;
+}
+
+.bg-words a:hover {
+  background: #2f8b3f;
 }
 
 .icon-collection {
@@ -114,7 +126,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 30px 15px;
-  display: flex;
 }
 
 .first-task-title {
@@ -165,6 +176,6 @@
 }
 
 .text-beside-img {
-  display: fle;
+  display: flex;
   flex-direction: column;
 }
