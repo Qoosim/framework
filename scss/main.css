@@ -4432,17 +4432,11 @@ h2 {
   text-align: center;
 }
 
-p {
+/* p {
   text-align: center;
   border: 3px solid #aa66cc;
   width: 40px;
   margin: 0 auto;
-}
+} */
 
-.lorem {
-  width: 500px;
-  height: 100px;
-  margin: 0 auto;
-  background: #ff4444;
-}
 /*# sourceMappingURL=main.css.map */

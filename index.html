@@ -5,56 +5,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Poppins:200,400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./scss/main.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Grid-based Framework</title>
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>Grid-Based Framework</h1>
-    <div class="row">
-      <div class="col-12">12</div>
-      <div class="col-11 bg-bgcolor">11</div>
-      <div class="col-1 bg-bg-color">1</div>
-      <div class="col-10 bg-bgcolor">10</div>
-      <div class="col-2">2</div>
-      <div class="col-9">9</div>
-      <div class="col-3">3</div>
-      <div class="col-4">4</div>
-      <div class="col-4">4</div>
-      <div class="col-4">4</div>
-      <div class="col-3">3</div>
-      <div class="col-3">3</div>
-      <div class="col-3">3</div>
-      <div class="col-3">3</div>
-      <div class="col-2">2</div>
-      <div class="col-2">2</div>
-      <div class="col-2">2</div>
-      <div class="col-2">2</div>
-      <div class="col-2">2</div>
-      <div class="col-2">2</div>
-    </div>
-  </div>
-<nav>
-  <ul class="nav">
-    <li class="nav-item">Home</li>
-    <li class="nav-item">Contact</li>
-    <li class="nav-item">Services</li>
-    <li class="nav-item">About Us</li>
-    <li class="nav-item">Opportunities</li>
-  </ul>
-</nav>
-<h2>Padding</h2>
-<p class="container pt-4">Padding top</p>
-<p class="container pr-4">Padding-right</p>
-<p class="container pb-5">Padding-bottom</p>
-<p class="container pl-4">Padding-Left</p>
+  <main class="container">
 
-<div class= "lorem mt-5">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum sed pariatur, ea modi quisquam nam veniam ducimus,
-     cumque unde placeat atque exercitationem? Porro cupiditate mollitia enim asperiores rerum?
-</div>
+    <header class="header">
+      <div class="logo-input">
+        <!-- <img class="header-logo" src="images/upworklogo.png" alt="upwork logo" width="80" height="20"> -->
+        <h2 class="header-logo"><span class="up">up</span>work</h2>
+        <input type="text" class="input-text" placeholder="Find Freelancers & Agencies">
+      </div>
+      <nav class="nav-link">
+        <ul class="nav">
+          <li class="nav-item">How It Works</li>
+          <li class="nav-item">Log in</li>
+          <li class="nav-item">Sign Up</li>
+          <li class="nav-item"><button class="p-job">Post a Job</button></li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="nav-below">
+      <ul class="b-nav">
+        <li><a href="#" class="b-item">Web Dev</a></li>
+        <li><a href="#" class="b-item">Mobile Dev</a></li>
+        <li><a href="#" class="b-item">Design</a></li>
+        <li><a href="#" class="b-item">Writing</a></li>
+        <li><a href="#" class="b-item">Admin Support</a></li>
+        <li><a href="#" class="b-item">Customer Service</a></li>
+        <li><a href="#" class="b-item">Marketing</a></li>
+        <li><a href="#" class="b-item">Accounting</a></li>
+        <li><a href="#" class="b-item">See All Categories</a></li>
+      </ul>
+    </nav>
+
+    <section class="bg-img"></section>
+
+    <section class="icon-collection"></section>
+
+    <section class="task-section">
+      <div class="tasks-list">
+        <div class="first-task">
+          <h3 class="first-task-title">Hire for any scope of work:</h3>
+        </div>
+        <div class="other-task">
+          <h3 class="task-title">Short-term tasks</h3>
+          <p class="task-paragraph">Build a pool of diverse experts for one-off tasks</p>
+        </div>
+        <div class="other-task">
+          <h3 class="task-title">Recurring projects</h3>
+          <p class="task-paragraph">Have a go-to team with specialized skills</p>
+        </div>
+        <div class="other-task">
+          <h3 class="task-title">Full-time contract work</h3>
+          <p class="task-paragraph">Expand your staff with a dedicated team</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="writers-editors">
+      <h2 class="writers-editors-title">Browse our highest-rated writers & editors</h2>
+
+      <div class="writers-editors-container">
+        <div class="container-card">
+          <div class="card-content">
+            <div>
+              <img class="card-img" src="https://www.upwork.com/profile-portraits/c18qOZLnQte3N7HJFqHok4vDpqdoFQrT4lBinY6dxvDyyjd-JRiV7N_-7lChXefOKJ" alt="Cecilia C.">
+              <p><strong>$40</strong> / hr</p>
+            </div>
+            <div class="text-beside-img">
+              <small>
+                <strong>Cecilia C.</strong>
+              </small>
+              <p>Voice over Talent, Writer, Translator English-Greek</p>
+              <span>Top rated</span>
+              <small>Patras, Greece</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+</main>
 </body>
 
 </html>

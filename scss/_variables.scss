@@ -37,16 +37,16 @@ $text-align: start, end, center, justify;
 $flex-direction: row, column, row-reverse, column-reverse; 
 
 // colors
-$primary: #4285F4;
-$secondary: #aa66cc;
-$default-color : #2BBBAD;
-$danger : #ff4444;
-$light : #fff;
-$warning :  #ffbb33;
-$success : #00C851;
-$info : #33b5e5;
-$unique : #3F729B;
-$bgcolor: #d1d1d1;
+$primary:#4285F4;
+$secondary:#aa66cc;
+$default-color:#2BBBAD;
+$danger:#ff4444;
+$light:#fff;
+$warning:#ffbb33;
+$success:#00C851;
+$info:#33b5e5;
+$unique:#3F729B;
+$bgcolor:#d1d1d1;
 
 // change _font-color file if more colors are added
 $colors: $primary, $secondary, $default-color, $danger, $light, $warning, $success, $info, $unique, $bgcolor;
