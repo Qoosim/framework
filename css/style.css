@@ -152,30 +152,130 @@
   line-height: 20px;
 }
 
-.writers-editors {
-  margin: 40px auto;
-}
-
-.writers-editors-title {
-  font-size: 35px;
-  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
-}
-
 .other-task {
   line-height: 20px;
   padding: 5px 0px 5px 30px;
   border-left: 2px solid #37a000;
 }
 
+.writers-editors {
+  margin: 40px auto;
+}
+
+.writers-editors-title {
+  font: bold 35px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.writers-editors-container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-card {
+  width: 23%;
+  box-shadow: 0px 1px 9px rgb(179, 174, 174);
+  padding: 10px;
+}
+
 .card-img {
   border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
 .card-content {
+  width: 100%;
+  line-height: 22px;
+  padding: 10px 0px 8px 0px;
+  border-bottom: 1px solid #d1d1d1;
   display: flex;
 }
 
 .text-beside-img {
   display: flex;
   flex-direction: column;
+  font: normal 15px/21px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-left: 10px;
+  
+}
+
+.name-link {
+  text-decoration: none;
+  color: #37a000;
+}
+
+.rated {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #14bff4;
+}
+
+.cash,
+.small {
+  margin-top: 10px;
+}
+
+.cash {
+  margin-left: 10px;
+}
+
+.hour {
+  font-size: 14px;
+  color: #222;
+}
+
+.small {
+  color: #656565;
+}
+
+.text-below-line {
+  font: normal 14px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.first-text,
+.last-text,
+.next-text {
+  background: #e0e0e0;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.last-text {
+  margin-left: 5px;
+}
+
+.profile-button {
+  background: #37a000;
+  border: none;
+  border-radius: 3px;
+  font: normal 14px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 25px 0px;
+  cursor: pointer;
+}
+
+.upwork-business {
+  height: 30px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upw-buz,
+.upw-buz a {
+  font: normal 13px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.upw-buz a:hover {
+  color: #e4acbf;
 }
