@@ -292,7 +292,11 @@
 }
 
 .icons a {
- color: green;
+ color: #2f8b3f;
+}
+
+.most-demand-pros {
+  margin-bottom: 50px;
 }
 
 .demand-pros {
@@ -300,4 +304,56 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.how-it-works {
+  background: #f9f9f9;
+  height: 400px;
+}
+
+.model {
+  font: bold 35px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  padding-top: 70px;
+}
+
+.job-types {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs-type-list {
+  width: 20%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  background: #1d4354;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle a {
+  color: #fff;
+  
+}
+
+.job-title {
+  font: 600 18px/23px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.job-explanation {
+  font: normal 14px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-align: center;
 }
