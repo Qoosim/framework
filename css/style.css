@@ -435,14 +435,7 @@ label > input:hover {
   flex-direction: column;
 }
 
-.categories-1 {
-  margin-right: 5px;
-  display: flex;
-  flex-direction: column;
-}
-
-.categories a,
-.categories-1 a {
+.categories a {
   font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
   color: #222;
   text-decoration: none;
