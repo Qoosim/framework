@@ -411,3 +411,44 @@ label > input:hover {
   background: #58883e;
   box-shadow: 0px 1px 12px rgba(128, 122, 122, 0.9);
 }
+
+.skilled-writers {
+  background: #f9f9f9;
+}
+
+.writers-title {
+  font: 600 18px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.writer-skills {
+  margin-left: 100px;
+  display: flex;
+}
+
+.categories {
+  margin-right: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-1 {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories a,
+.categories-1 a {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: #37a000;
+  text-decoration: underline;
+}
