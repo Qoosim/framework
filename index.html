@@ -17,6 +17,7 @@
   <main class="container">
 
     <header class="d-flex justify-content-between align-items-center header">
+      <div class="bars"><i class="fa fa-bars fa-1x" aria-hidden="true"></i></div>
       <div class="logo-input d-flex justify-content-between">
         <h2 class="header-logo"><span class="up">up</span>work</h2>
         <input type="text" class="input-text d-none d-lg-flex" placeholder="Find Freelancers & Agencies">
@@ -31,7 +32,7 @@
       </nav>
     </header>
     <nav class="nav-below">
-      <ul class=" d-none d-lg-flex justify-content-between align-items-center b-nav">
+      <ul class="d-none d-lg-flex justify-content-between align-items-center b-nav">
         <li><a href="#" class="b-item">Web Dev</a></li>
         <li><a href="#" class="b-item">Mobile Dev</a></li>
         <li><a href="#" class="b-item">Design</a></li>
@@ -46,8 +47,8 @@
 
     <section class="bg-img"></section>
     <div class="row get-started">
-      <div class=" col-xs-12 col-sm-12 col-lg-7 bg-words">
-        <h1 class="pb-6">Find quality freelancers and agencies for writing</h1>
+      <div class="col-xs-12 col-sm-12 col-lg-7 bg-words">
+        <h1 class="pb-6 pt-4">Find quality freelancers and agencies for writing</h1>
         <a href="#">Get started</a>
       </div>
     </div>
@@ -84,9 +85,29 @@
 
       <h2 class="col-12 writers-editors-title">Browse our highest-rated writers & editors</h2>
 
-      <div class="writers-editors-container">
+      <div class="col-sm-10 col-lg-10 writers-editors-container">
 
-        <div class="container-card">
+        <div class="card-container">
+          <div class="card-content">
+            <div>
+              <img class="card-img"
+                src="https://www.upwork.com/profile-portraits/c18qOZLnQte3N7HJFqHok4vDpqdoFQrT4lBinY6dxvDyyjd-JRiV7N_-7lChXefOKJ">
+              <p class="cash"><strong>$40</strong><small class="hour"> /hr</small></p>
+            </div>
+            <div class="text-beside-img">
+              <a href="#" class="name-link">Cecilia C.</a>
+              <p>Voice over Talent,<br> Writer, Translator</p>
+              <span class="rated">Top rated</span>
+              <small class="small">Patras, Greece</small>
+            </div>
+          </div>
+          <p class="text-below-line"><span class="first-text">Voice Over </span><span class="last-text">Voice
+            Talent</span></p>
+          <p class="text-below-line"><span class="next-text">Translation English Greek</span></p>
+          <button class="profile-button">View Profile</button>
+        </div>
+
+        <div class="card-container">
           <div class="card-content">
             <div>
               <img class="card-img"
@@ -106,7 +127,7 @@
           <button class="profile-button">View Profile</button>
         </div>
 
-        <div class="container-card">
+        <div class="card-container">
           <div class="card-content">
             <div>
               <img class="card-img"
@@ -126,27 +147,7 @@
           <button class="profile-button">View Profile</button>
         </div>
 
-        <div class="container-card">
-          <div class="card-content">
-            <div>
-              <img class="card-img"
-                src="https://www.upwork.com/profile-portraits/c18qOZLnQte3N7HJFqHok4vDpqdoFQrT4lBinY6dxvDyyjd-JRiV7N_-7lChXefOKJ">
-              <p class="cash"><strong>$40</strong><small class="hour"> /hr</small></p>
-            </div>
-            <div class="text-beside-img">
-              <a href="#" class="name-link">Cecilia C.</a>
-              <p>Voice over Talent,<br> Writer, Translator</p>
-              <span class="rated">Top rated</span>
-              <small class="small">Patras, Greece</small>
-            </div>
-          </div>
-          <p class="text-below-line"><span class="first-text">Voice Over </span><span class="last-text">Voice
-              Talent</span></p>
-          <p class="text-below-line"><span class="next-text">Translation English Greek</span></p>
-          <button class="profile-button">View Profile</button>
-        </div>
-
-        <div class="container-card">
+        <div class="card-container">
           <div class="card-content">
             <div>
               <img class="card-img"
@@ -169,38 +170,38 @@
       </div>
     </section>
 
-    <section class="upwork-business">
-      <p class="upw-buz">Upwork Business: We’ll help you find the perfect content writers. <a href="#"
-          target="_blank">Learn more.</a></p>
+    <section class="col-sm-12 upwork-business">
+      <p class="upw-buz">Upwork Business: We’ll help you find the perfect content writers.<a href="#"
+        target="_blank">Learn more.</a></p>
     </section>
 
     <section class="row most-demand-pros">
-      <h2 class="col-sm-12 writers-editors-title">Some of our most in-demand pros</h2>
+      <h2 class="col-sm-12 col-lg-12 writers-editors-title">Some of our most in-demand pros</h2>
 
       <div class="demand-pros">
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
-          <p>Blog & Article Writers</p>
+          <p class="icons-text"><a href="#">Blog & Article Writers</a></p>
         </div>
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-address-card-o fa-3x" aria-hidden="true"></i></a>
-          <p>Web content writers</p>
+          <p class="icons-text"><a href="#">Web content writers</a></p>
         </div>
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-list-alt fa-3x" aria-hidden="true"></i></a>
-          <p>Technical writers</p>
+          <p class="icons-text"><a href="#">Technical writers</a></p>
         </div>
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-text-height fa-3x" aria-hidden="true"></i></a>
-          <p>Creative writers</p>
+          <p class="icons-text"><a href="#">Creative writers</a></p>
         </div>
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></a>
-          <p>Copywriters</p>
+          <p class="icons-text"><a href="#">Copywriters</a></p>
         </div>
         <div class="col-sm-12 icons">
           <a href="#"><i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i></a>
-          <p>Editors</p>
+          <p class="icons-text"><a href="#">Editors</a></p>
         </div>
       </div>
     </section>
