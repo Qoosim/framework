@@ -1,6 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
 .header {
   max-width: 90%;
-  width: 100%;
+  /* width: 100%; */
   margin: 10px auto;
   height: 70px;
 }
@@ -105,6 +109,7 @@
   background: #37a000;
   color: #fff;
   font-weight: 400;
+  padding: 10px 20px 10px 20px;
 }
 
 .bg-words a:hover {
@@ -114,7 +119,7 @@
 .icon-collection {
   width: 100%;
   height: 120px;
-  background: #212121;
+  background: #494949;
 }
 
 .task-section {
@@ -392,7 +397,7 @@ label > input {
 
 label > input:hover {
   box-shadow: 0px 1px 9px rgba(187, 182, 182, 0.9);
-  border-color: #000;
+  border-color: #37a000;
 }
 
 .g-button {
@@ -444,4 +449,89 @@ label > input:hover {
 .categories a:hover {
   color: #37a000;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  /* .container {
+    margin: 0;
+    padding: 0 20px 0 20px;
+  } */
+
+  .header{
+    max-width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .header-logo {
+    font-size: 35px;
+  }
+
+  .bg-img {
+    display: none;
+  }
+
+  .get-started {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+  }
+  
+  .bg-words {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .bg-words h1{
+    margin: 0 auto;
+    width: 85%;
+    font-size: 24px;
+    line-height: 30px;
+    white-space: pre-wrap;
+    margin-bottom: -26px;
+    /* padding-top: 20px; */
+  }
+
+  .bg-words a {
+    padding: 10px 95px 10px 95px;
+    border-radius: 3px;
+    }
+
+    .icon-collection {
+      max-width: 100%;
+      margin-right: 0;
+      margin-top: 11.5rem;
+      /* height: 120px;  */
+    }
+
+  .tasks-list {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-task-title {
+    font-size: 18px;
+    font-weight: lighter;
+     }
+
+  .other-task {
+    margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+  }
+
+  .task-title {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .demand-pros {
+    display: inline-block;
+  }
+  
 }
