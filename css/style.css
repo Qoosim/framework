@@ -9,6 +9,10 @@ body {
   height: 70px;
 }
 
+.bars {
+  display: none;
+}
+
 .logo-input {
   max-width: 400px;
   width: 100%;
@@ -180,7 +184,7 @@ body {
   justify-content: space-between;
 }
 
-.container-card {
+.card-container {
   width: 23%;
   box-shadow: 0px 1px 9px rgb(179, 174, 174);
   padding: 10px;
@@ -298,6 +302,11 @@ body {
 
 .icons a {
  color: #2f8b3f;
+}
+
+.icons-text a {
+  color: #222;
+  text-decoration: none;
 }
 
 .most-demand-pros {
@@ -456,15 +465,30 @@ label > input:hover {
     margin: 0;
     padding: 0 20px 0 20px;
   } */
+  .bars {
+    display: block;
+    float: left;
+    color: #aaa;
+    height: 25px;
+    margin-left: 10px;
+  }
 
   .header{
     max-width: 100%;
+    height: 52px;
     display: block;
     margin: 0;
+    box-shadow: 0px 1px 9px rgba(128, 122, 122, 0.7);
   }
 
   .header-logo {
-    font-size: 35px;
+    font-size: 30px;
+    float: none;
+    margin-left: 130px;
+  }
+
+  .nav-below {
+    border-top: none;
   }
 
   .bg-img {
@@ -515,7 +539,13 @@ label > input:hover {
   .first-task-title {
     font-size: 18px;
     font-weight: lighter;
-     }
+    text-align: center;
+  }
+
+  .writers-editors-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 
   .other-task {
     margin-bottom: 20px;
@@ -531,7 +561,63 @@ label > input:hover {
   }
 
   .demand-pros {
-    display: inline-block;
+    width: 100%;
+    flex-direction: column;
   }
-  
+
+  .icons {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #d1d1d1;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .icons a {
+    font-size: 6px;
+  }
+
+  .icons-text a {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+
+  .icons:last-child {
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .upwork-business {
+    height: 65px;
+  }
+
+  .upw-buz {
+    width: 400px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #f9f9f9;
+    text-align: center;
+  }
+
+  .writers-editors-container {
+    /* width: 100%; */
+  }
+
+  .card-container {
+    width: 600px;
+  }
+
+  .card-content {
+    /* width: 100%; */
+    /* line-height: 22px; */
+    /* padding: 10px 0px 8px 0px; */
+    /* border-bottom: 1px solid #d1d1d1; */
+    /* display: flex; */
+  }
+
+  .profile-button {
+    width: 100%;
+    /* padding: 7px 20px; */
+    /* margin: 25px 0px; */
+  }
+
 }
