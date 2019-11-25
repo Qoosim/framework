@@ -463,6 +463,7 @@ label > input:hover {
   background: #2b5468;
   margin-top: 75px;
   color: #fff;
+  height: 500px;
 }
 
 .footer p {
@@ -501,6 +502,46 @@ label > input:hover {
 .footer-div a:hover {
   text-decoration: underline #fff;
 }
+
+.footer-link {
+  width: 80%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #4b89a8;
+  padding-bottom: 8px;
+  margin-bottom: 100px;
+}
+
+.link-left,
+.link-right {
+  display: flex;
+  margin-left: 15px;
+}
+
+.social-link {
+  font-size: 14px;
+  color: #fff;
+  background: #5988a0;
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.link-div1,
+.link-div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 
 @media screen and (max-width: 576px) {
 
