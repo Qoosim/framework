@@ -520,7 +520,7 @@ label > input:hover {
 .social-link {
   font-size: 14px;
   color: #fff;
-  background: #5988a0;
+  background: #35657e;
   width: 28px;
   height: 28px;
   padding: 6px;
@@ -530,6 +530,10 @@ label > input:hover {
   border-radius: 50%;
   margin-right: 6px;
   text-decoration: none;
+}
+
+.social-link:hover {
+  background: #4b89a8;
 }
 
 .link-div1,
