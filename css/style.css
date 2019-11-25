@@ -459,6 +459,49 @@ label > input:hover {
   text-decoration: underline;
 }
 
+.footer {
+  background: #2b5468;
+  margin-top: 75px;
+  color: #fff;
+}
+
+.footer p {
+  text-align: center;
+  padding: 20px 9px 20px 9px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer {
+  max-width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #4b89a8;
+  border-bottom: 1px solid #4b89a8;
+  justify-content: space-around;
+}
+
+.footer-div h6 {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.footer p > a {
+  color: #fff;
+}
+
+.footer-div a {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+   color: #fff;
+   text-decoration: none;
+}
+
+.footer-div a:hover {
+  text-decoration: underline #fff;
+}
+
 @media screen and (max-width: 576px) {
 
   .bars {
