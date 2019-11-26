@@ -417,6 +417,7 @@ label > input:hover {
   border-radius: 2px;
   margin-top: 10px;
   margin-left: 220px;
+  cursor: pointer;
 }
 
 .g-button:hover {
@@ -748,23 +749,53 @@ label > input:hover {
     margin-top: 0;
   }
 
-  .sign-up {
-    width: 100vw;
+  .g-button {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px;
   }
 
+  .form-section {
+    max-width: 100%;
+  }
+
+  .sign-up {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  label > input {
+    max-width: 100%;
+    width: 90%;
+    padding: 10px 220px; 
+  }
+
+  .list-title {
+    margin-left: 10px;
+  }
+
+  .list-inside {
+    margin-left: 10px;
+  }
 
   .writers-title {
-    margin-left: 10px;
+    margin-left: 20px;
     padding-top: 30px;
     padding-bottom: 5px;
   }
 
   .writer-skills {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .categories {
     align-items: flex-start;
+  }
+
+  .main-footer {
+    max-width: 100%;
+    width: 90%;
   }
 
   .footer {
@@ -800,6 +831,8 @@ label > input:hover {
   }
 
   .footer-link {
+    max-width: 100%;
+    width: 90%;
     flex-direction: column;
     padding-bottom: 17px;
   }
