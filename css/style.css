@@ -341,7 +341,6 @@ body {
 
 .jobs-type-list {
   width: 20%;
-  /* height: 220px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -463,6 +462,7 @@ label > input:hover {
   background: #2b5468;
   margin-top: 75px;
   color: #fff;
+  padding-bottom: 50px;
 }
 
 .footer p {
@@ -478,8 +478,8 @@ label > input:hover {
 .main-footer {
   max-width: 80%;
   margin: 0 auto;
-  border-top: 1px solid #4b89a8;
-  border-bottom: 1px solid #4b89a8;
+  border-top: 1px solid #356780;
+  border-bottom: 1px solid #356780;
   justify-content: space-around;
 }
 
@@ -507,14 +507,20 @@ label > input:hover {
   margin: 15px auto;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #4b89a8;
-  padding-bottom: 8px;
+  border-bottom: 1px solid #356780;
+  padding-bottom: 12px;
 }
 
 .link-left,
 .link-right {
   display: flex;
-  margin-left: 15px;
+}
+
+.link-title {
+  font-size: 14px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  margin-right: 17px;
 }
 
 .social-link {
@@ -603,7 +609,6 @@ label > input:hover {
     line-height: 30px;
     white-space: pre-wrap;
     margin-bottom: -26px;
-    /* padding-top: 20px; */
   }
 
   .bg-words a {
@@ -615,7 +620,6 @@ label > input:hover {
       max-width: 100%;
       margin-right: 0;
       margin-top: 11.5rem;
-      /* height: 120px;  */
     }
 
   .tasks-list {
@@ -748,9 +752,52 @@ label > input:hover {
   }
   .categories {
     align-items: flex-start;
-    /* text-align-last: right; */
   }
 
+  .footer {
+    padding-bottom: 20px;
+  }
 
+  .footer-div:not(:last-child) {
+    border-bottom: 1px solid #356780;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .footer-div:last-child {
+    padding-top: 15px;
+  }
+
+  .info-link {
+    display: none;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    padding-bottom: 17px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .link-div1 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #356780;
+    padding-bottom: 20px;
+  }
+
+  .link-div2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 
 }
