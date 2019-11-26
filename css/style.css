@@ -502,6 +502,11 @@ label > input:hover {
   text-decoration: underline #fff;
 }
 
+.info-link-title {
+  font-size: normal 16px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
 .footer-link {
   width: 80%;
   margin: 15px auto;
@@ -747,8 +752,16 @@ label > input:hover {
     width: 100vw;
   }
 
+
+  .writers-title {
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
   .writer-skills {
     flex-direction: column;
+    margin-left: 10px;
   }
   .categories {
     align-items: flex-start;
@@ -766,6 +779,20 @@ label > input:hover {
 
   .footer-div:last-child {
     padding-top: 15px;
+  }
+
+  .info-link-title::after {
+    content: "";
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-315deg);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
   }
 
   .info-link {
