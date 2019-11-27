@@ -3,13 +3,16 @@ body {
 }
 
 .header {
-  max-width: 100%;
   width: 90%;
   margin: 10px auto;
   height: 70px;
 }
 
 .bars {
+  display: none;
+}
+
+.search-btn {
   display: none;
 }
 
@@ -581,28 +584,38 @@ label > input:hover {
 
 
 @media screen and (max-width: 576px) {
+  .outer-container {
+    margin: 0;
+    padding: 0;
+  }
 
   .bars {
     display: block;
-    float: left;
-    font-size: 25px;
-    color: #aaa;
-    height: 25px;
-    margin-left: 10px;
+    color: #999;
+    font-size: 23px;
+    margin-left: 20px;
+  }
+
+  .search-btn {
+    display: block;
+    font-size: 20px;
+    color: #999;
+    transform: rotate(5deg);
+    margin-left: 4.5rem;
   }
 
   .header{
-    max-width: 100%;
+    width: 100vw;
     height: 52px;
     display: block;
     margin: 0;
+    padding: 0;
     box-shadow: 0px 1px 9px rgba(128, 122, 122, 0.7);
   }
 
   .header-logo {
     font-size: 30px;
-    float: none;
-    margin-left: 130px;
+    margin-left: 5rem;
   }
 
   .nav-below {
@@ -641,9 +654,13 @@ label > input:hover {
     }
 
     .icon-collection {
-      max-width: 100%;
+      width: 100%;
       margin-right: 0;
       margin-top: 11.5rem;
+    }
+
+    .task-section {
+      margin: 0 15px;
     }
 
   .tasks-list {
@@ -677,8 +694,7 @@ label > input:hover {
   }
 
   .demand-pros {
-    max-width: 100%;
-    width: 95%;
+    margin: 0 15px;
     flex-direction: column;
   }
 
@@ -718,22 +734,8 @@ label > input:hover {
   .writers-editors-container {
     max-width: 100%;
     width: 100%;
-    /* overflow: hidden; */
-    /* position: relative; */
   }
 
-  /* .big-container {
-    width: 200%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    height: 100%;
-    display: flex;
-  } */
-
-  
-  
   .profile-button {
     width: 100%;
     margin: 25px 0px;
@@ -755,7 +757,8 @@ label > input:hover {
   }
 
   .job-types {
-    width: 100%;
+    margin: 0 15px;
+    width: 100vw;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -792,14 +795,11 @@ label > input:hover {
   }
 
   .sign-up {
-    max-width: 100%;
-    width: 90%;
+   margin: 0 15px;
   }
 
   label > input {
-    max-width: 100%;
-    width: 90%;
-    padding: 10px 220px; 
+   padding: 10px 20px 10px 100px;
   }
 
   .list-title {
@@ -893,58 +893,59 @@ label > input:hover {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  .outer-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .bars {
     display: block;
-    float: left;
-    font-size: 25px;
-    color: #aaa;
-    height: 25px;
-    margin-left: 10px;
+    color: #999;
+    font-size: 23px;
+    margin-left: 20px;
+  }
+
+  .search-btn {
+    display: block;
+    font-size: 20px;
+    color: #999;
+    transform: rotate(5deg);
+    margin-left: 4.5rem;
   }
 
   .header{
-    max-width: 100%;
+    width: 100vw;
     height: 52px;
     display: block;
     margin: 0;
+    padding: 0;
     box-shadow: 0px 1px 9px rgba(128, 122, 122, 0.7);
   }
 
   .header-logo {
     font-size: 30px;
-    float: none;
-    margin-left: 130px;
+    margin-left: 5rem;
   }
 
   .nav-below {
     border-top: none;
   }
 
-  .bg-img {
-    display: none;
-  }
-
   .get-started {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
-    display: block;
+    width: 90%;
   }
   
-  .bg-words {
-    max-width: 100%;
-    text-align: center;
-  }
-
   .bg-words h1{
-    margin: 0 auto;
-    width: 85%;
-    font-size: 24px;
+    /* margin: 0 auto; */
+    /* width: 85%; */
+    font-size: 20px;
     line-height: 30px;
-    white-space: pre-wrap;
-    margin-bottom: -26px;
+    /* white-space: pre-wrap; */
+    /* margin-bottom: -26px; */
   }
 
   .bg-words a {
@@ -1090,14 +1091,14 @@ label > input:hover {
   }
 
   .sign-up {
-    max-width: 100%;
-    width: 90%;
+    /* max-width: 100%; */
+    /* width: 90%; */
   }
 
   label > input {
-    max-width: 100%;
-    width: 90%;
-    padding: 10px 220px; 
+    /* max-width: 100%; */
+    /* width: 90%; */
+    /* padding: 10px 220px;  */
   }
 
   .list-title {
@@ -1194,19 +1195,15 @@ label > input:hover {
 
   .bars {
     display: block;
-    float: left;
-    font-size: 25px;
-    color: #aaa;
-    height: 25px;
     margin-left: 10px;
   }
 
   .header{
     max-width: 100%;
-    height: 52px;
+    /* height: 52px; */
     display: block;
     margin: 0;
-    box-shadow: 0px 1px 9px rgba(128, 122, 122, 0.7);
+    /* box-shadow: 0px 1px 9px rgba(128, 122, 122, 0.7); */
   }
 
   .logo-input {
@@ -1215,6 +1212,6 @@ label > input:hover {
 
   .header-logo {
     font-size: 30px;
-    margin-left: 230px;
+    /* margin-left: 230px; */
   }
 }
