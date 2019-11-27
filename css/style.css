@@ -180,14 +180,11 @@ body {
 }
 
 .writers-editors-container {
-  /* max-width: 110%; */
   width: 110%;
   height: 350px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 .big-container {
