@@ -144,6 +144,11 @@ body {
   text-decoration: none;
 }
 
+.icons-text a {
+  color: #222;
+  text-decoration: none;
+}
+
 .footer p > a {
   color: #fff;
 }
@@ -243,7 +248,7 @@ body {
 .card-content {
   width: 100%;
   line-height: 22px;
-  padding: 10px 0 8px 0px;
+  padding: 10px 0 8px 0;
   border-bottom: 1px solid #d1d1d1;
   display: flex;
 }
@@ -335,11 +340,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.icons-text a {
-  color: #222;
-  text-decoration: none;
 }
 
 .most-demand-pros {
