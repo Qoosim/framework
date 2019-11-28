@@ -1,3 +1,4 @@
+/* stylelint-disable */
 
 @mixin grid-unit($span) {
   float: left;
@@ -24,3 +25,4 @@
 @mixin display-inline-block {
   display: inline-block;
 }
+/* stylelint-enable */
