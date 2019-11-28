@@ -57,7 +57,7 @@ body {
 }
 
 .nav-item:hover {
-  color:#37a000;
+  color: #37a000;
 }
 
 .p-job {
@@ -202,7 +202,6 @@ body {
   display: inline-block;
   margin: 16px 4px;
   margin-right: 12px;
-
 }
 
 .card-img {
@@ -225,7 +224,6 @@ body {
   font: normal 15px/21px 'Gotham SSm', Helvetica, Arial, sans-serif;
   color: #222;
   margin-left: 10px;
-  
 }
 
 .name-link {
@@ -316,7 +314,7 @@ body {
 }
 
 .icons a {
- color: #2f8b3f;
+  color: #2f8b3f;
 }
 
 .icons-text a {
@@ -513,8 +511,8 @@ label > input:hover {
 
 .footer-div a {
   font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
-   color: #fff;
-   text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-div a:hover {
@@ -571,14 +569,12 @@ label > input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .copy p {
   font-size: 12px;
   color: #fff;
 }
-
 
 @media screen and (max-width: 992px) {
   .outer-container {
@@ -601,7 +597,7 @@ label > input:hover {
     margin-left: 4.5rem;
   }
 
-  .header{
+  .header {
     width: 100vw;
     height: 52px;
     display: block;
@@ -623,7 +619,7 @@ label > input:hover {
     width: 100%;
   }
   
-  .bg-words h1{
+  .bg-words h1 {
     /* width: 85%; */
     font-size: 20px;
     line-height: 30px;
@@ -634,11 +630,11 @@ label > input:hover {
     border-radius: 3px;
     }
 
-    .icon-collection {
-      max-width: 100%;
-      margin-right: 0;
-      margin-top: -0.5rem;
-    }
+  .icon-collection {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: -0.5rem;
+  }
 
   .tasks-list {
     max-width: 100%;
@@ -717,7 +713,6 @@ label > input:hover {
     width: 100%;
   }
 
-
   .profile-button {
     width: 100%;
     margin: 25px 0px;
@@ -743,7 +738,7 @@ label > input:hover {
   .job-types {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr)); ;
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
     grid-column-gap: 1rem;
     grid-row-gap: 2rem;
     padding: 0 1rem 0 1rem;
@@ -801,6 +796,7 @@ label > input:hover {
     flex-direction: row;
     margin-left: 20px;
   }
+
   .categories {
     align-items: flex-start;
   }
@@ -894,7 +890,7 @@ label > input:hover {
     margin-left: 4.5rem;
   }
 
-  .header{
+  .header {
     width: 100vw;
     height: 52px;
     display: block;
@@ -926,7 +922,7 @@ label > input:hover {
     text-align: center;
   }
 
-  .bg-words h1{
+  .bg-words h1 {
     margin: 0 auto;
     width: 85%;
     font-size: 24px;
@@ -940,15 +936,15 @@ label > input:hover {
     border-radius: 3px;
     }
 
-    .icon-collection {
-      max-width: 100%;
-      margin-right: 0;
-      margin-top: 3.5rem;
-    }
+  .icon-collection {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 3.5rem;
+  }
 
-    .task-section {
-      margin: 0 15px;
-    }
+  .task-section {
+    margin: 0 15px;
+  }
 
   .tasks-list {
     max-width: 100%;
@@ -1085,11 +1081,11 @@ label > input:hover {
   }
 
   .sign-up {
-   margin: 0 15px;
+    margin: 0 15px;
   }
 
   label > input {
-   padding: 10px 20px 10px 250px;
+    padding: 10px 20px 10px 250px;
   }
 
   .list-title {
@@ -1180,5 +1176,4 @@ label > input:hover {
     font-size: 16px;
     margin-bottom: 20px;
   }
-
 }
