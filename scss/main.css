@@ -12,7 +12,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video { /*stylelint-disable-line */
+time, mark, audio, video { /* stylelint-disable-line */
   margin: 0;
   padding: 0;
   border: 0;
@@ -4433,5 +4433,5 @@ h6 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-/*# sourceMappingURL=main.css.map */
 /* stylelint-enable */
+/*# sourceMappingURL=main.css.map */
