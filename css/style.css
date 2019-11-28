@@ -820,7 +820,7 @@ label > input:hover {
     padding-top: 15px;
   }
 
-  .info-link-title::after {
+  .info-link-title:after {
     content: "";
     display: inline-block;
     border-right: 1px solid #fff;
@@ -1131,7 +1131,7 @@ label > input:hover {
     padding-top: 15px;
   }
 
-  .info-link-title::after {
+  .info-link-title:after {
     content: "";
     display: inline-block;
     border-right: 1px solid #fff;

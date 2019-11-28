@@ -1,4 +1,4 @@
-//Font weight and Border
+/* stylelint-disable */
 
 @each $font-weight in $font-weights {
   .font-weight-#{$font-weight} {
@@ -49,3 +49,4 @@ $i: 1;
     text-align: $align;
   }
 }
+/* stylelint-enable */

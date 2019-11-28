@@ -1,3 +1,5 @@
+/* stylelint-disable */
+
 .d-flex {
   @include display-flex();
 }
@@ -153,3 +155,5 @@ $j: 1;
   }
   $j: $j + 1;
 }
+/* stylelint-enable */
+
