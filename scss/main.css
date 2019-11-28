@@ -20,7 +20,9 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   font-family: 'Open Sans', sans-serif;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+
+}
 
 /* HTML5 display-role reset for older browsers */
 
