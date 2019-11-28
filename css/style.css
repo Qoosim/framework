@@ -104,6 +104,10 @@ body {
   width: 90%;
 }
 
+.bg-words {
+  margin-left: 1.5rem;
+}
+
 .bg-words h1 {
   font-size: 2.5rem;
   color: #222;
@@ -594,7 +598,7 @@ label > input:hover {
     font-size: 20px;
     color: #999;
     transform: rotate(5deg);
-    margin-left: 4.5rem;
+    margin-left: 20rem;
   }
 
   .header {
@@ -608,7 +612,7 @@ label > input:hover {
 
   .header-logo {
     font-size: 30px;
-    margin-left: 5rem;
+    margin-left: 15rem;
   }
 
   .nav-below {
@@ -619,10 +623,14 @@ label > input:hover {
     width: 100%;
   }
 
+  .bg-words {
+    width: 100%;
+    margin-left: 1.5rem;
+  }
+
   .bg-words h1 {
-    /* width: 85%; */
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .bg-words a {
@@ -762,10 +770,10 @@ label > input:hover {
   }
 
   .g-button {
-    max-width: 100%;
-    width: 100%;
-    padding: 10px;
-    margin-left: 0;
+    max-width: 60%;
+    /* width: 100%; */
+    padding: 12px;
+    margin: 0 auto;
   }
 
   .form-section {
@@ -919,6 +927,7 @@ label > input:hover {
   }
 
   .bg-words {
+    margin-left: 0;
     text-align: center;
   }
 
