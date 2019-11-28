@@ -16,13 +16,7 @@
 
 .d-inline-block {
     @include display-inline-block();
-}
-
-// @media screen and (max-width: $breakpoint-xs) { 
-//     .d-#{$xs}-flex{
-//         @include display-flex();
-//     }
-// }   
+} 
 
 $i: 1;
 
@@ -33,7 +27,7 @@ $i: 1;
         .d-#{nth($breakpoints,$i)}-flex{
         @include display-flex();
         }
-    }   
+    }
 	$i: $i + 1
 }
 
