@@ -101,15 +101,8 @@ body {
 }
 
 .get-started {
-  /* width: 90%;
-  position: absolute;
-  bottom: 13rem;
-  left: 4.5rem; */
-}
-
-.bg-words h1{
+  width: 90%;
   font-size: 2.5rem;
-  line-height: 50px;
   color: #222;
 }
 
@@ -757,18 +750,13 @@ label > input:hover {
     grid-column-gap: 1rem;
     grid-row-gap: 2rem;
     padding: 0 1rem 0 1rem;
-    border-bottom: 1px solid #d1d1d1;
   }
 
   .jobs-type-list {
     width: 100%;
-    /* padding-top: 20px; */
     padding-bottom: 20px;
     flex-direction: row;
     align-items: center;
-  }
-
-  .jobs-type-list:not(:nth-child(1)):not(:nth-child(2)) {
   }
 
   .job-title {
@@ -792,15 +780,10 @@ label > input:hover {
     max-width: 100%;
   }
 
-  .sign-up {
-    /* max-width: 100%; */
-    /* width: 90%; */
-  }
-
   label > input {
-    /* max-width: 100%; */
-    /* width: 90%; */
-    /* padding: 10px 220px;  */
+    max-width: 100%;
+    width: 90%;
+    padding: 10px 250px; 
   }
 
   .list-title {
@@ -818,7 +801,7 @@ label > input:hover {
   }
 
   .writer-skills {
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 20px;
   }
   .categories {
