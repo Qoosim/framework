@@ -102,8 +102,12 @@ body {
 
 .get-started {
   width: 90%;
+}
+
+.bg-words h1 {
   font-size: 2.5rem;
   color: #222;
+  line-height: 150%;
 }
 
 .bg-words a {
@@ -576,8 +580,6 @@ label > input:hover {
 }
 
 
-
-
 @media screen and (max-width: 992px) {
   .outer-container {
     margin: 0;
@@ -618,18 +620,13 @@ label > input:hover {
   }
 
   .get-started {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 90%;
+    width: 100%;
   }
   
   .bg-words h1{
     /* width: 85%; */
     font-size: 20px;
     line-height: 30px;
-    /* white-space: pre-wrap; */
-    /* margin-bottom: -26px; */
   }
 
   .bg-words a {
@@ -640,7 +637,7 @@ label > input:hover {
     .icon-collection {
       max-width: 100%;
       margin-right: 0;
-      margin-top: 11.5rem;
+      margin-top: -0.5rem;
     }
 
   .tasks-list {
@@ -917,18 +914,15 @@ label > input:hover {
 
   .bg-img {
     background: #fff;
+    height: 160px;
   }
 
   .get-started {
-    position: relative;
-    bottom: 0;
-    left: 0;
     width: 100%;
     display: block;
   }
   
   .bg-words {
-    max-width: 100%;
     text-align: center;
   }
 
@@ -947,9 +941,9 @@ label > input:hover {
     }
 
     .icon-collection {
-      width: 100%;
+      max-width: 100%;
       margin-right: 0;
-      margin-top: 11.5rem;
+      margin-top: 3.5rem;
     }
 
     .task-section {
@@ -987,25 +981,27 @@ label > input:hover {
   }
 
   .demand-pros {
-    margin: 0 15px;
-    flex-direction: column;
+    max-width: 100%;
+    grid-row-gap: 0.1rem;
   }
 
   .icons {
-    width: 100%;
+    max-width: 100%;
     height: 50px;
     border-top: 1px solid #d1d1d1;
     flex-direction: row;
     justify-content: start;
+    padding: 0;
   }
 
   .icons a {
-    font-size: 6px;
+    font-size: 5px;
+    margin-bottom: 0;
   }
 
   .icons-text a {
     margin-left: 15px;
-    font-size: 13px;
+    font-size: 0.75rem;
   }
 
   .icons:last-child {
@@ -1035,13 +1031,13 @@ label > input:hover {
   }
 
   .how-it-works {
-    height: 600px;
+    height: 610px;
   }
 
   .model {
     font-size: 18px;
-    padding-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     word-spacing: 2px;
   }
 
@@ -1054,10 +1050,11 @@ label > input:hover {
     width: 100vw;
     flex-direction: column;
     justify-content: flex-start;
+    grid-row-gap: 0.5rem;
   }
   .jobs-type-list {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     align-items: flex-start;
   }
@@ -1092,7 +1089,7 @@ label > input:hover {
   }
 
   label > input {
-   padding: 10px 20px 10px 100px;
+   padding: 10px 20px 10px 250px;
   }
 
   .list-title {
