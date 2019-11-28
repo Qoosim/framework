@@ -771,7 +771,6 @@ label > input:hover {
 
   .g-button {
     max-width: 60%;
-    /* width: 100%; */
     padding: 12px;
     margin: 0 auto;
   }
