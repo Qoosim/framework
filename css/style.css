@@ -1,0 +1,1189 @@
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 90%;
+  margin: 10px auto;
+  height: 70px;
+}
+
+.bars {
+  display: none;
+}
+
+.search-btn {
+  display: none;
+}
+
+.logo-input {
+  max-width: 400px;
+  width: 100%;
+}
+
+.header-logo {
+  font-size: 28px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.up {
+  font-family: 'Courgette', cursive;
+  color: #37a000;
+}
+
+.input-text {
+  padding: 2px 50px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.nav-link {
+  max-width: 500px;
+  width: 100%;
+  float: right;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(85, 80, 80);
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-item:hover {
+  color: #37a000;
+}
+
+.p-job {
+  background: #37a000;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.nav-below {
+  width: 100%;
+  border-top: 1px solid #aaa;
+}
+
+.b-nav {
+  max-width: 90%;
+  margin: 5px auto;
+  height: 40px;
+}
+
+.b-item {
+  font-size: 14px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-decoration: none;
+}
+
+.bg-img {
+  height: 450px;
+  background: cadetblue;
+  background-image: url("https://www.upwork.com/ab/assets/Adquiro/b410745/wp/images/writing@2x.f5e55a8292ce.jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.get-started {
+  width: 90%;
+}
+
+.bg-words {
+  margin-left: 1.5rem;
+}
+
+.bg-words h1 {
+  font-size: 2.5rem;
+  color: #222;
+  line-height: 150%;
+}
+
+.bg-words a {
+  text-decoration: none;
+  background: #37a000;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+}
+
+.upw-buz,
+.upw-buz a {
+  font: normal 13px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.icons a {
+  color: #2f8b3f;
+}
+
+.circle a {
+  color: #fff;
+}
+
+.categories a {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-decoration: none;
+}
+
+.footer-div a {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.icons-text a {
+  color: #222;
+  text-decoration: none;
+}
+
+.footer p > a {
+  color: #fff;
+}
+
+.bg-words a:hover {
+  background: #2f8b3f;
+}
+
+.icon-collection {
+  width: 100%;
+  height: 120px;
+  background: #494949;
+}
+
+.task-section {
+  background: #f9f9f9;
+}
+
+.tasks-list {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.first-task-title {
+  font-size: 21px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-top: 20px;
+}
+
+.task-title {
+  font-size: 17px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.task-paragraph {
+  font-size: 14px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.first-task {
+  padding: 0 15px;
+  line-height: 20px;
+}
+
+.other-task {
+  line-height: 20px;
+  padding: 5px 0 5px 30px;
+  border-left: 2px solid #37a000;
+}
+
+.writers-editors {
+  margin: 40px auto;
+}
+
+.writers-editors-title {
+  font: bold 35px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.writers-editors-container {
+  width: 110%;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.big-container {
+  position: absolute;
+  width: 200%;
+  top: 16px;
+  left: 16px;
+  height: 100%;
+}
+
+.card-container {
+  width: 250px;
+  box-shadow: 0 1px 9px rgb(179, 174, 174);
+  padding: 10px;
+  display: inline-block;
+  margin: 16px 4px;
+  margin-right: 12px;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.card-content {
+  width: 100%;
+  line-height: 22px;
+  padding: 10px 0 8px 0;
+  border-bottom: 1px solid #d1d1d1;
+  display: flex;
+}
+
+.text-beside-img {
+  display: flex;
+  flex-direction: column;
+  font: normal 15px/21px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-left: 10px;
+}
+
+.name-link {
+  text-decoration: none;
+  color: #37a000;
+}
+
+.rated {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #14bff4;
+}
+
+.cash,
+.small {
+  margin-top: 10px;
+}
+
+.cash {
+  margin-left: 10px;
+}
+
+.hour {
+  font-size: 14px;
+  color: #222;
+}
+
+.small {
+  color: #656565;
+}
+
+.text-below-line {
+  font: normal 14px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.first-text,
+.last-text,
+.next-text {
+  background: #e0e0e0;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.last-text {
+  margin-left: 5px;
+}
+
+.profile-button {
+  background: #37a000;
+  border: none;
+  border-radius: 3px;
+  font: normal 14px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+
+.upwork-business {
+  background: #222;
+  height: 35px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upw-buz a:hover {
+  color: #e4acbf;
+}
+
+.icons {
+  width: 14%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.most-demand-pros {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.demand-pros {
+  max-width: 100%;
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-it-works {
+  background: #f9f9f9;
+  height: 400px;
+}
+
+.model {
+  font: bold 35px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  padding-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.job-types {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs-type-list {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  background: #1d4354;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-title {
+  font: 600 18px/23px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-top: 15px;
+}
+
+.job-explanation {
+  font: normal 14px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+.form-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.sign-up-title {
+  font-size: 40px;
+}
+
+.sign-up {
+  max-width: 45%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+label > input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  color: #fff;
+}
+
+label > input:hover {
+  box-shadow: 0 1px 9px rgba(187, 182, 182, 0.9);
+  border-color: #37a000;
+}
+
+.g-button {
+  background: #37a000;
+  box-shadow: 0 1px 9px rgba(187, 182, 182, 0.9);
+  font: 600 14px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+.g-button:hover {
+  background: #58883e;
+  box-shadow: 0 1px 12px rgba(128, 122, 122, 0.9);
+}
+
+.skilled-writers {
+  background: #f9f9f9;
+}
+
+.writers-title {
+  font: 600 18px/22px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.writer-skills {
+  margin-left: 100px;
+  display: flex;
+}
+
+.categories {
+  margin-right: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories a:hover {
+  color: #37a000;
+  text-decoration: underline;
+}
+
+.footer {
+  background: #2b5468;
+  margin-top: 75px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  text-align: center;
+  padding: 20px 9px 20px 9px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer {
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #356780;
+  border-bottom: 1px solid #356780;
+  justify-content: space-around;
+}
+
+.footer-div h6 {
+  font: 14px/30px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-div a:hover {
+  text-decoration: underline #fff;
+}
+
+.info-link-title {
+  font-size: normal 16px 'Gotham SSm', Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.footer-link {
+  width: 80%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #356780;
+  padding-bottom: 12px;
+}
+
+.link-left,
+.link-right {
+  display: flex;
+}
+
+.link-title {
+  font-size: 14px;
+  font-family: 'Gotham SSm', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  margin-right: 17px;
+}
+
+.social-link {
+  font-size: 14px;
+  color: #fff;
+  background: #35657e;
+  width: 28px;
+  height: 28px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: #4b89a8;
+}
+
+.link-div1,
+.link-div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy p {
+  font-size: 12px;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .outer-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bars {
+    display: block;
+    color: #999;
+    font-size: 23px;
+    margin-left: 20px;
+  }
+
+  .search-btn {
+    display: block;
+    font-size: 20px;
+    color: #999;
+    transform: rotate(5deg);
+    margin-left: 20rem;
+  }
+
+  .header {
+    width: 100vw;
+    height: 52px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 1px 9px rgba(128, 122, 122, 0.7);
+  }
+
+  .header-logo {
+    font-size: 30px;
+    margin-left: 15rem;
+  }
+
+  .nav-below {
+    border-top: none;
+  }
+
+  .get-started {
+    width: 100%;
+  }
+
+  .bg-words {
+    width: 100%;
+    margin-left: 1.5rem;
+  }
+
+  .bg-words h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bg-words a {
+    padding: 10px 95px 10px 95px;
+    border-radius: 3px;
+  }
+
+  .icon-collection {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: -0.5rem;
+  }
+
+  .tasks-list {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-task-title {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .writers-editors-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .other-task {
+    margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+  }
+
+  .task-title {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .demand-pros {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    grid-row-gap: 4rem;
+  }
+
+  .icons {
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .icons-text {
+    font-size: 0.85rem;
+    line-height: 200%;
+    text-align: center;
+  }
+
+  .icons a {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .icons-text a {
+    margin-left: 15px;
+    font-size: 1rem;
+  }
+
+  .upwork-business {
+    height: 65px;
+  }
+
+  .upw-buz {
+    width: 400px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #f9f9f9;
+    text-align: center;
+  }
+
+  .writers-editors-container {
+    width: 100%;
+  }
+
+  .profile-button {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .circle {
+    display: block;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+
+  .how-it-works {
+    height: 600px;
+  }
+
+  .model {
+    font-size: 18px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+  }
+
+  .job-types {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .jobs-type-list {
+    width: 100%;
+    padding-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .job-title {
+    margin-top: 1px;
+    padding-bottom: 3px;
+  }
+
+  .job-explanation {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .g-button {
+    max-width: 60%;
+    padding: 12px;
+    margin: 0 auto;
+  }
+
+  .form-section {
+    max-width: 100%;
+  }
+
+  label > input {
+    max-width: 100%;
+    width: 90%;
+    padding: 10px 250px;
+  }
+
+  .list-title {
+    margin-left: 10px;
+  }
+
+  .list-inside {
+    margin-left: 10px;
+  }
+
+  .writers-title {
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .writer-skills {
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .categories {
+    align-items: flex-start;
+  }
+
+  .main-footer {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .footer-div:not(:last-child) {
+    border-bottom: 1px solid #356780;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .footer-div:last-child {
+    padding-top: 15px;
+  }
+
+  .info-link-title:after {
+    content: "";
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-315deg);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .info-link {
+    display: none;
+  }
+
+  .footer-link {
+    max-width: 100%;
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 17px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .link-div1 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #356780;
+    padding-bottom: 20px;
+  }
+
+  .link-div2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .outer-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bars {
+    display: block;
+    color: #999;
+    font-size: 23px;
+    margin-left: 20px;
+  }
+
+  .search-btn {
+    display: block;
+    font-size: 20px;
+    color: #999;
+    transform: rotate(5deg);
+    margin-left: 4.5rem;
+  }
+
+  .header {
+    width: 100vw;
+    height: 52px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 1px 9px rgba(128, 122, 122, 0.7);
+  }
+
+  .header-logo {
+    font-size: 30px;
+    margin-left: 5rem;
+  }
+
+  .nav-below {
+    border-top: none;
+  }
+
+  .bg-img {
+    background: #fff;
+    height: 160px;
+  }
+
+  .get-started {
+    width: 100%;
+    display: block;
+  }
+
+  .bg-words {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .bg-words h1 {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 24px;
+    line-height: 30px;
+    white-space: pre-wrap;
+    margin-bottom: -26px;
+  }
+
+  .bg-words a {
+    padding: 10px 95px 10px 95px;
+    border-radius: 3px;
+  }
+
+  .icon-collection {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 3.5rem;
+  }
+
+  .task-section {
+    margin: 0 15px;
+  }
+
+  .tasks-list {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-task-title {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .writers-editors-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .other-task {
+    margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+  }
+
+  .task-title {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .demand-pros {
+    max-width: 100%;
+    grid-row-gap: 0.1rem;
+  }
+
+  .icons {
+    max-width: 100%;
+    height: 50px;
+    border-top: 1px solid #d1d1d1;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+  }
+
+  .icons a {
+    font-size: 5px;
+    margin-bottom: 0;
+  }
+
+  .icons-text a {
+    margin-left: 15px;
+    font-size: 0.75rem;
+  }
+
+  .icons:last-child {
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .upwork-business {
+    height: 65px;
+  }
+
+  .upw-buz {
+    width: 400px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #f9f9f9;
+    text-align: center;
+  }
+
+  .writers-editors-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .profile-button {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .how-it-works {
+    height: 610px;
+  }
+
+  .model {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    word-spacing: 2px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .job-types {
+    margin: 0 15px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-row-gap: 0.5rem;
+  }
+
+  .jobs-type-list {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: flex-start;
+  }
+
+  .jobs-type-list:not(:last-child) {
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .job-title {
+    margin-top: 1px;
+    padding-bottom: 3px;
+  }
+
+  .job-explanation {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .g-button {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .form-section {
+    max-width: 100%;
+  }
+
+  .sign-up {
+    margin: 0 15px;
+  }
+
+  label > input {
+    padding: 10px 20px 10px 250px;
+  }
+
+  .list-title {
+    margin-left: 10px;
+  }
+
+  .list-inside {
+    margin-left: 10px;
+  }
+
+  .writers-title {
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .writer-skills {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .categories {
+    align-items: flex-start;
+  }
+
+  .main-footer {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .footer-div:not(:last-child) {
+    border-bottom: 1px solid #356780;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .footer-div:last-child {
+    padding-top: 15px;
+  }
+
+  .info-link-title:after {
+    content: "";
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-315deg);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .info-link {
+    display: none;
+  }
+
+  .footer-link {
+    max-width: 100%;
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 17px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .link-div1 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #356780;
+    padding-bottom: 20px;
+  }
+
+  .link-div2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
